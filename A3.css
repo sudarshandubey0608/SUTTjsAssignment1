@@ -1,0 +1,49 @@
+.openbtn
+{
+  margin-bottom: 25%;
+  margin-top: 25%;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+.modal
+{
+ display:none;
+  color: black;
+  background-color: cyan;
+  height: 50%;
+  width:50%;
+text-align: center;
+overflow: auto;
+margin-left: 25%;
+margin-top: 5%;
+margin-bottom: 50%;
+box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.2);
+animation-name: modalopening;
+animation-duration: 1s;
+}
+
+.modalcontent
+{
+  font-family: Arial Rounded MT;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+
+}
+@keyframes modalopening {
+  from{opacity: 0}
+  to{opacity: 1}
+}
+.modalheader
+{
+  background-color:white;
+ color: black;
+ box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.2);
+ text-shadow: 0 5px 8px 0 rgba(255, 0, 0, 0.5);
+}
+.modalbody{
+  background-color: grey;
+  color: white;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
